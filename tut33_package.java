@@ -1,26 +1,14 @@
-package practiceset12.prob1;
+package practiceset12.prob2;
 
 
-class claculator{
-    public void claculate(int a, int b){
-        System.out.println(" your result is "+ a+b);
-    }
-} 
-class scclaculator{
-    public void claculate(int a, int b){
-        System.out.println(" your result is " + Math.sin(a+b));
-    }
-} 
-class hyclaculator{
-    public void claculate(int a, int b){
-        System.out.println(" your result is "+ a+b);
-        System.out.println(" your result is "+ Math.sin(a+b));
-    }
-} 
+import java.util.Scanner;
 
-public class prob1 {
+public class prob2 {
     public static void main(String[]args){
-        System.out.println("I am main method");
+        Scanner s = new Scanner(System.in);
+        System.out.print("Input heare:- ");
+        int x = s.nextInt();
+        System.out.println("hello, dear!");
         
     }
 }
